@@ -1,0 +1,29 @@
+.Login, .Signup {
+    width: 100%;
+    margin: 2.5%;
+}
+.AddPoll {
+    margin: 2.5%;
+}
+input {
+    width: 95%;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+@media screen and (min-width: 760px) {
+    .Login, .Signup {
+        margin: 0;
+        width: 35%;
+    }
+    .Login {
+        margin-right: 10%;
+    }
+    .AddPoll {
+        width: 60%;
+        margin: 5% auto;
+    }
+    input {
+        width: 100%;
+    }
+}
