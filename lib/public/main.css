@@ -1,6 +1,26 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+.root-styled {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('homepageBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Home {
+    text-align: center;
+    color: white;
+}
+.Home > h1 {
+    font-size: 3.3em;
+}
+.Home > p {
+    width: 240px;
+    font-size: 1.2em;
 }
 .navbar {
     border-radius: 0;
@@ -49,6 +69,13 @@ a {
 }
 
 @media screen and (min-width: 760px) {
+    .Home > h1 {
+        font-size: 6em;
+    }
+    .Home > p {
+        width: 450px;
+        font-size: 1.4em;
+    }
     .Login, .Signup {
         margin: 2em 0;
         width: 35%;
